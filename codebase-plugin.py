@@ -1,10 +1,6 @@
 import sublime,sublime_plugin,urllib2,json,urllib,uuid
 
 class SendcodeCommand(sublime_plugin.TextCommand):
-	
-	
-		
-		
 	def run(self, edit):
 		self.auth = []
 		self.data = ""
@@ -67,8 +63,6 @@ class SendcodeCommand(sublime_plugin.TextCommand):
 			return 0
 		else:
 			return 1 
-
-		#self.view.insert(edit, 0, "Hello, World!")
 class ReadcodeCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		self.view.insert(edit, 0, "Hello, World!")
