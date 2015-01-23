@@ -1,0 +1,4 @@
+[
+   { "caption": "Send To CodeBase", "command": "sendcode"},
+   { "caption": "See CBs", "command": "readcode", "args": {} }
+]
